@@ -1,0 +1,84 @@
+TPOS MOBILE Change Log
+Version 1.2.13
+- Thêm in hóa đơn bán hàng qua máy in Lan
+- thêm in hóa đơn bán hàng qua máy in Tpos Printer
+- Hiện số thứ tự đơn hàng trong danh sách đơn hàng saleonline
+- Fix lỗi chọn số âm khi chọn số lượng sản phẩm sale online
+-
+Version 1.2.14
+- Thêm Gửi tin nhắn in box fapage trong live #89
+- Thêm lưu bình luận bài live (Ở danh sách bài live và trong bài live) #153
+- Tự động lưu bình luận trong khi live
+- Thêm chức năng xem tổng quan bài đăng #154
+- Fix lỗi lấy share  tài khoản cá nhân #163
+- Thêm Watermark TPOS.VN trong thống kê lượt share
+- Cảnh báo khi thêm page đã tồn tại
+- Một số chỗ có thể có nút gọi điện thoại nhanh
+- Hiện số lần chốt đơn (In) trong sửa thông tin đơn hàng
+- Fix lỗi in hóa đơn
+BONUS
+- [Chức năng ẩn]- Nhấn giữ lâu nút đăng nhập facebook sẽ đăng nhập bằng tài khoản facebook đã đăng nhập trên app facebook (Bình thường thì mở form đăng nhập mới)
+- Game vòng xoay may mắn (alpha)
+Versin 1.2.15
+- Fix in phiếu ship Lan (Phí ship không hiện đúng cài đặt )
+Version 1.2.16
+- Fix giao diện thống kê phiếu nhập lọc theo trạng thái hiện không đúng. #178
+- Giao diện dashboard báo cáo mới (Phone ,tablet) #179
+- Fix tìm sản phẩm không hiện tên biến thể #184 (Hưng)
+- Fix làm mới token facebook không cập nhật lại #187 (Trường)
+- Tạo đơn hàng khi live delay tránh trùng mã và lỗi 500 #188 (Kính)
+- In lại chọn nhiều đơn hàng một lần nhấn #174 (Huỳnh Nam)
+- Thêm mẫu in ship qua Lan (chọn trong cấu in in phiếu ship)
+- Thêm tùy chọn bổ sung bình luận vào ghi chú khi sửa đơn hàng online (#173)
+- Thêm hỗ trợ máy in Lan PRP085K TAWA
+- Sửa một vài lỗi giao diện...
+- Tạm bỏ tự lưu bình luận
+
+Version 1.2.19
+- Hóa đơn số lượng sản phẩm nhập được số thập phân
+- Bug #218 - Thêm sản phẩm trong đơn hàng sale online không có thanh cuộn
+- Bug #220 - Đăng nhập face ios crash app
+- #216 Thống kê lượt share lỗi giờ hiển thị
+
+Versoin 1.3.0 Beta
+- Sửa lỗi nhập giảm giá khi tạo hóa đơn (#209)
+- Thêm cấu hình in địa chỉ đầy đủ (street + phường xã  +quận huyện + tỉnh thành) (#224)
+- Thêm sản phẩm thêm nhập tồn kho dầu kỳ
+- Tự lưu bình luận sau một khoảng  thời gian được cài đặt trong cấu hình sale online
+- Sửa một chút giao diện tạo đơn hàng từ bình luận facebook
+- Thêm cài đặt chơi game
+
+Version 1.3.1 Beta
+- Sửa lỗi thống kê hóa đơn + hóa đơn giao hàng chỉ hiện 200 đơn
+- Thêm tính năng sao chép chi tiết hóa đơn (Nhấn giữ lâu)
+
+Versoin 1.3.7
+- Hiển thị biểu tượng trạng thái video ở danh sách bài live #197
+Bug #241 - Lỗi cộng sản phẩm khi chỉnh sửa đơn hàng saleonline
+Task #240 - Hiện tồn kho khi tìm sản phẩm
+- Cho phép chọn bảng giá khi tạo hóa đơn
+- Nút in lại người trúng thưởng game
+- Fix In phiếu bán hàng hiện thanh toán tổng nợ null mặc dù đã ẩn
+Version 1.3.8
+- Bug. In hóa đơn bán hàng không hiện tiền giảm trên sản phẩm và toàn bộ hóa đơn
+- Bug. In phiếu quà tặng BadState
+- Phiếu đặt hàng thêm tùy chọn ngày cảnh báo
+- Chọn sản phẩm sale online bỏ qua dialog
+- Làm gòn giao diện sale online hiện nhiều comment hơn
+- Nhập địa chỉ ip hiện dấu . trên iphone
+
+Version 1.3.9
+- Nâng cấp facebook login sdk 5.5
+- Task #247: Tạo hóa đơn giao hàng nhanh từ phiếu bán hàng online
+- Task #254 - Bỏ chữ đ phía sau báo cáo tổng quan hàng bán chạy
+- Task #90: Phân quyền giao diện ẩn hiện theo gói phần mềm
+- Task #213: Thêm form Đăng kí dùng thử phần mềm
+- Task #255: (Danh sách hóa đơn giao hàng) Thêm nút cập nhật trạng thái giao hàng từ đối tác giao hàng
+- Bug #251: (Danh sách phiếu bán hàng online) In phiếu online trong danh sách đơn hàng không có mã khách hàng
+- Hiện trạng thái khách hàng khi tạo hóa đơn
+- Bug #250: Giờ thống kê hóa đơn chi tiết bị sai
+- Task #258 - Thêm báo cáo nhập xuất tồn kho
+- Task #257 - Hiện giá số lượng tồn kho trong danh sách sản phẩm (template)
+- Task #259 - Phân quyền thêm sửa xóa danh mục sản phẩm
+- Task #260 - Thêm bộ lọc danh sách đơn hàng bán online
+- Fix Error 500 danh sách sản phẩm dài

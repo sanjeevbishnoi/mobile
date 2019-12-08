@@ -1,0 +1,159 @@
+name: tpos_mobile
+description: Phiên bản mobile của phần mềm bán hàng TPos.
+
+version: 1.4.2+89
+
+environment:
+  sdk: ">=2.2.2 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^0.1.2
+  http: ^0.12.0+2 #Request, Get, post, put, delete
+  shared_preferences: ^0.5.4+3
+  url_launcher: ^5.2.0
+  flutter_facebook_login: ^3.0.0 #Login facebook
+  scoped_model: ^1.0.1
+  provider: ^3.1.0
+  intl: any # Format datetime, number
+  w3c_event_source: ^1.3.2 # Capture server send event
+  diacritic: ^0.1.1 #remove mark
+  test: ^1.5.1+1
+  font_awesome_flutter: ^8.5.0
+  datetime_picker_formfield: ^0.4.2
+  timeago: ^2.0.18
+#  connectivity: ^0.4.4 # Thư viện kiểm tra trạng thái kết nối
+  logging: ^0.11.3+2 #Thư viện ghi log
+  logger: ^0.7.0+2
+  sentry: ^2.2.0
+  rxdart: ^0.22.2
+  rx_command: ^4.3.2+1
+  screen: ^0.0.5
+  package_info: ^0.4.0+10
+  barcode_scan: ^1.0.0
+  image_picker: ^0.6.1+4
+  device_info: ^0.4.0+2 # Đọc thông số thiết bị
+  cached_network_image: ^1.0.0
+  badges: ^1.1.0
+  firebase_remote_config: ^0.2.0+6
+  firebase_crashlytics: ^0.1.0+3
+  firebase_analytics: ^5.0.1
+#  firebase_messaging: ^5.1.4
+  webview_flutter: ^0.3.15
+  image: ^2.1.4
+  store_redirect: ^1.0.1
+  signalr_client: ^0.1.6
+  hex: ^0.1.2
+  pdf: ^1.3.18
+  printing: ^2.1.3
+  random_color: ^1.0.3
+  flutter_money_formatter: ^0.8.3
+  nam_esc_pos_printer:
+    path: ../PACKAGE/nam_esc_pos_printer
+  date_range_picker: ^1.0.6
+  flutter_masked_text: ^0.8.0
+  async: ^2.2.0
+  flutter_spinkit: ^4.0.0
+  flushbar: ^1.9.0
+  sticky_headers: ^0.1.8 #Làm header của một list luôn "dính" trên màn hình
+  fl_chart: ^0.1.6 #Biểu đồ bánh(Pie Chart) và đường (Line Chart)
+  auto_size_text: ^2.1.0 #Tự điều chỉnh size chữ nhỏ lại khi không đủ không gian
+  flutter_charts: ^0.1.10 #Biểu đồ cột
+  flutter_screenutil: ^0.5.3 #căn chỉnh kích thước theo thiết bị
+  flutter_svg: ^0.14.0
+  barcode_flutter: ^1.0.1
+  network_image_to_byte: ^0.0.1 #chuyển hình trên mạng thàng Unit8List
+  animated_background: ^1.0.5
+  keyboard_visibility: ^0.5.6
+  flutter_slidable: ^0.5.3
+  flutter_account_kit: ^0.7.0
+  #app_review: ^1.0.0
+  flare_flutter: ^1.8.0
+  sqflite: ^1.1.0
+  path_provider: ^1.1.0
+dependency_overrides:
+  intl: ^0.16.0
+
+dev_dependencies:
+  flutter_launcher_icons: ^0.7.3
+  flutter_driver:
+    sdk: flutter
+  test: any
+  #flutter_test:
+    #sdk: flutter
+
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "images/tpos_mobile_icon.png"
+
+
+# For information on the generic Dart part of this file, see the
+# following page: https://www.dartlang.org/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - images/tpos_logo.png
+    - images/no_image.png
+    - images/facebook_play.png
+    - images/tpos_logo_180.png
+    - images/tpos_logo_512.png
+    - images/tpos_mobile_icon.png
+    - images/tpos_logo_512x512.png
+    - images/arrow.png
+    - images/game_title.png
+    - images/game_avatar.jfif
+    - images/game_luckywheel_avatar_white.jpg
+    - images/test_print_image.png
+    - images/testPrinter.png
+    - images/barcode_scan.svg
+    - images/avatar_50x.png
+    - images/star_stroke.png
+    - images/ballon.png
+    - images/vnpost_logo.png
+    - images/viettelpost_logo.png
+    - images/giaohangnhanh_logo.png
+    - images/giaohangtietkiem_logo.png
+    - images/fixed_price.jpg
+    - images/tintoc_logo.jpg
+    - images/jt_logo.jpg
+    - images/supership_logo.png
+    - images/empty_state.flr
+    - images/cart.png
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.io/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.io/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+    - family: UVNVan_B
+      fonts:
+        - asset: fonts/UVNVan_B.TTF
+    - family: times.ttf
+      fonts:
+        - asset: fonts/times.ttf
+        - asset: fonts/timesbd.ttf
+        - asset: fonts/timesbi.ttf
+        - asset: fonts/timesi.ttf
+
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.io/custom-fonts/#from-packages
